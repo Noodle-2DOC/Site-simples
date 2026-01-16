@@ -1,0 +1,57 @@
+/* estilizacao */
+body {
+    /* cria um fundo em degrade (de cima para baixo) */
+    background: linear-gradient(to bottom, #da4a83, #881044);
+    /* define a fonte padrao do site */
+    font-family: Arial, Helvetica, sans-serif;
+    /* centraliza os textos */
+    text-align: center;
+    /* define a cor do texto como branco */
+    color: white;
+}
+/* estiliza o titulo principal (h1) */
+h1 {
+    /* cria um espaco acima do titulo */
+    margin-top: 30px;
+}
+/* estiliza elementos que usam a classe "subtitulo" */
+.subtitulo {
+    /* cria um espaco abaixo do subtitulo */
+    margin-bottom: 30px;
+}
+/* estiliza a area do catalogo */
+.catalogo {
+    /* usa flexbox para organizar os itens */
+    display: flex;
+    /* centraliza os itens horizontalmente */
+    justify-content: center;
+    /* espaco entre os itens */
+    gap: 20px;
+}
+/* estiliza cada item do catalogo */
+.item {
+    /* fundo branco para destacar do fundo rosa */
+    background-color: white;
+    /* cor do texto */
+    color: #881044;
+    /* espacamento interno */
+    padding: 10px;
+    /* bordas arredondadas */
+    border-radius: 10px;
+    /* largura fixa do item */
+    width: 150px;
+}
+/* estiliza as imagens dentro dos itens */
+.item img {
+    /* faz a imagem ocupar toda a largura do item */
+    width: 100%;
+    /* arredonda as bordas da imagem */
+    border-radius: 8px;
+}
+/* estiliza o texto dentro dos itens */
+.item p {
+    /* espaco acima do texto */
+    margin-top: 10px;
+    /* deixa o texto em negrito */
+    font-weight: bold;
+}
