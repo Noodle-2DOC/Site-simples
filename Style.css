@@ -1,0 +1,109 @@
+/* estiliza todo o corpo da pagina */
+body {
+    /* fundo em degrade de cima para baixo */
+    background: linear-gradient(to bottom, #da4a83, #881044);
+    /* define a fonte padrao do site */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* caixa principal do conteudo */
+.container {
+    /* largura da caixa */
+    width: 300px;
+    /* centraliza a caixa na horizontal e cria espaco no topo */
+    margin: 100px auto;
+    /* centraliza o texto dentro da caixa */
+    text-align: center;
+    /* fundo branco da caixa */
+    background-color: white;
+    /* espacamento interno */
+    padding: 20px;
+    /* bordas arredondadas */
+    border-radius: 10px;
+}
+
+/* estiliza o titulo principal */
+h1 {
+    /* cor do texto */
+    color: #c2185b;
+    /* deixa o texto em negrito */
+    font-weight: bold;
+}
+/* estiliza todos os paragrafos */
+p {
+    /* cor do texto dos paragrafos */
+    color: #3b011e;
+}
+/* estiliza os campos de entrada (input) */
+input {
+    /* largura do campo */
+    width: 90%;
+    /* espacamento interno */
+    padding: 8px;
+    /* espaco abaixo do campo */
+    margin-bottom: 10px;
+    /* borda do input */
+    border: 1px solid #c2185b;
+}
+
+/* estiliza os botoes */
+button {
+    /* espacamento interno do botao */
+    padding: 8px 12px;
+    /* espaco externo entre os botoes */
+    margin: 5px;
+    /* cor de fundo do botao */
+    background-color: #c2185b;
+    /* cor do texto */
+    color: white;
+    /* remove a borda padrao */
+    border: none;
+    /* muda o cursor para maozinha */
+    cursor: pointer;
+}
+
+/* efeito quando o mouse passa por cima do botao */
+button:hover {
+    /* escurece a cor do botao */
+    background-color: #a3154a;
+}
+
+/* estrutura geral da pagina */
+.pagina {
+    /* permite posicionar elementos dentro dela */
+    position: relative;
+    /* altura minima igual a altura da tela */
+    min-height: 100vh;
+}
+
+/* estiliza a primeira imagem da draculaura */
+.draculaura {
+    /* largura da imagem */
+    width: 250px;
+    /* permite posicionar a imagem livremente */
+    position: absolute;
+    /* distancia do topo da pagina */
+    top: 100px;
+    /* distancia da esquerda */
+    left: 60px;
+}
+
+/* estiliza a segunda imagem da draculaura */
+.draculaura2 {
+    /* largura da imagem */
+    width: 350px;
+    /* posicionamento absoluto */
+    position: absolute;
+    /* distancia do topo */
+    top: 300px;
+    /* distancia da direita */
+    right: 70px;
+}
+/* estiliza os links */
+
+a {
+    /* cor do texto do link */
+    color: white;
+    /* remove o sublinhado */
+    text-decoration: none;
+}
